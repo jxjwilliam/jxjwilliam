@@ -89,8 +89,9 @@ company:    "Best IT Consulting — bestitconsulting.ca"
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jxjwilliam&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=39ff88&icon_color=39ff88&text_color=c9d9d0" alt="jxjwilliam GitHub stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jxjwilliam&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=39ff88&text_color=c9d9d0" alt="Top languages" width="40%" />
+[![Followers](https://img.shields.io/github/followers/jxjwilliam?style=for-the-badge&logo=github&label=Followers&color=0D1117&labelColor=0D1117&logoColor=39ff88)](https://github.com/jxjwilliam?tab=followers)
+[![Total stars](https://img.shields.io/github/stars/jxjwilliam?style=for-the-badge&logo=github&label=Total%20Stars&color=0D1117&labelColor=0D1117&logoColor=39ff88)](https://github.com/jxjwilliam?tab=repositories)
+[![Status](https://img.shields.io/badge/Status-Running_Experiments-0D1117?style=for-the-badge&logo=flask&logoColor=39ff88&labelColor=0D1117)](https://github.com/jxjwilliam?tab=repositories)
 
 <img src="https://raw.githubusercontent.com/jxjwilliam/jxjwilliam/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="90%" />
 
