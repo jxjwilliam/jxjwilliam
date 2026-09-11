@@ -1,0 +1,101 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="William Jiang — Senior Full-Stack Engineer &amp; AI Consultant, lab focus overview">
+  <defs>
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39ff88" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#39ff88" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39ff88" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#39ff88" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050807"/>
+      <stop offset="100%" stop-color="#0a120e"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#39ff88" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="380" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="380" rx="14" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="378" rx="13" fill="none" stroke="#1f3d2c" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text x="40" y="46" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="22" font-weight="700" fill="#eafff2" filter="url(#glow)">William Jiang</text>
+  <text x="40" y="68" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#89e6b0">Senior Full-Stack Engineer &amp; AI Consultant</text>
+  <text x="40" y="86" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#5f8f75">📍 Surrey, BC, Canada</text>
+
+  <!-- spokes with flowing pulse -->
+  <g stroke="#2b6b4a" stroke-width="1.4" fill="none">
+    <path id="spoke1" d="M195,190 L620,84"/>
+    <path id="spoke2" d="M195,190 L620,164"/>
+    <path id="spoke3" d="M195,190 L620,244"/>
+    <path id="spoke4" d="M195,190 L620,324"/>
+  </g>
+
+  <!-- satellite node glows -->
+  <circle cx="620" cy="84"  r="30" fill="url(#nodeGlow)"/>
+  <circle cx="620" cy="164" r="30" fill="url(#nodeGlow)"/>
+  <circle cx="620" cy="244" r="30" fill="url(#nodeGlow)"/>
+  <circle cx="620" cy="324" r="30" fill="url(#nodeGlow)"/>
+
+  <!-- satellite nodes, gentle breathing pulse -->
+  <circle cx="620" cy="84"  r="5" fill="#39ff88"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.1s" begin="0s"   repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="164" r="5" fill="#39ff88"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.1s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="244" r="5" fill="#39ff88"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.1s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="324" r="5" fill="#39ff88"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.1s" begin="1.2s" repeatCount="indefinite"/></circle>
+
+  <!-- flowing data pulses travelling from hub to each node, continuous loop, staggered -->
+  <circle r="4" fill="#c9ffe0" filter="url(#glow)">
+    <animateMotion dur="2.6s" begin="0s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#spoke1"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#c9ffe0" filter="url(#glow)">
+    <animateMotion dur="2.6s" begin="0.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#spoke2"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#c9ffe0" filter="url(#glow)">
+    <animateMotion dur="2.6s" begin="1s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#spoke3"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#c9ffe0" filter="url(#glow)">
+    <animateMotion dur="2.6s" begin="1.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#spoke4"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- hub -->
+  <circle cx="195" cy="190" r="58" fill="url(#hubGlow)">
+    <animate attributeName="r" values="54;62;54" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="195" cy="190" r="32" fill="#0d1512" stroke="#39ff88" stroke-width="1.6"/>
+  <text x="195" y="197" text-anchor="middle" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#eafff2">WJ</text>
+
+  <!-- lab focus labels -->
+  <rect x="636" y="70"  width="228" height="28" rx="14" fill="#0d1512" stroke="#1f3d2c"/>
+  <text x="650" y="89" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#c9d9d0">LLM fine-tuning (LoRA/QLoRA)</text>
+
+  <rect x="636" y="150" width="228" height="28" rx="14" fill="#0d1512" stroke="#1f3d2c"/>
+  <text x="650" y="169" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#c9d9d0">OCR &amp; document pipelines</text>
+
+  <rect x="636" y="230" width="228" height="28" rx="14" fill="#0d1512" stroke="#1f3d2c"/>
+  <text x="650" y="249" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#c9d9d0">Streaming / event-driven data</text>
+
+  <rect x="636" y="310" width="228" height="28" rx="14" fill="#0d1512" stroke="#1f3d2c"/>
+  <text x="650" y="329" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#c9d9d0">Agentic + RAG prototypes</text>
+
+  <!-- footer strip -->
+  <text x="40" y="360" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="11.5" fill="#5f8f75">production → github.com/williamjxj   ·   company → Best IT Consulting</text>
+</svg>

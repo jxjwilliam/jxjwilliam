@@ -17,19 +17,9 @@
 
 This is my **research & experiments** account — where I fine-tune models, break OCR pipelines until they work, and prototype the ideas that don't belong in a client repo yet. Day-to-day production and consulting work lives at **[@williamjxj](https://github.com/williamjxj)**; this is the lab bench.
 
-```text
-$ cat about.yaml
-name:      William Jiang
-role:      Senior Full-Stack Engineer & AI Consultant
-base:      Surrey, BC, Canada 🇨🇦
-lab_focus:
-  - LLM fine-tuning (LoRA / QLoRA)
-  - OCR & document extraction pipelines
-  - streaming / event-driven data systems
-  - agentic + RAG prototypes
-production: "https://github.com/williamjxj"
-company:    "Best IT Consulting — bestitconsulting.ca"
-```
+<div align="center">
+<img src="assets/about-card.svg" alt="William Jiang — lab focus overview: LLM fine-tuning, OCR pipelines, streaming data, agentic/RAG prototypes" width="820" />
+</div>
 
 ---
 
